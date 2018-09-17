@@ -1,0 +1,314 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*for Tablet resolution 769px*/
+@media only screen and (min-width: 769px) {
+    #first_page_container, #second_page_container, #page_wrapper, #edit_page_container {
+        width: auto;
+    }
+
+    #first_page_container {
+        background: linear-gradient(85deg, rgba(212, 183, 89, 0.945),rgba(116, 134, 138, 0.959));
+    }
+
+    #second_page_container {
+        background: url("images/Networking.jpg");
+        background-size: cover;
+        min-height: 100vh;
+    }
+    #page_wrapper {
+        background: linear-gradient(85deg, rgba(212, 183, 89, 0.945),rgba(116, 134, 138, 0.959))
+    }
+
+    #edit_page_container {
+        background-color : #F1F1F1;
+    }
+
+    #second_page_container, #page_wrapper, #edit_page_container {
+        font-family: 'Trebuchet MS';
+    }
+       
+    /*Login page*/
+    .login_container {
+        width: 300px;
+        height: 270px;
+        border: solid 2px #34878a;
+        margin: 190px auto 0px auto;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+    }
+
+    .input_container {
+        height: 100px;
+        margin-top: 100px;
+    }
+
+    .span_help {
+        margin-left: 55px;
+        margin-top: 12px;
+    }
+
+    #username {
+        margin-top: 0px;
+    }
+
+    .login_input {
+        display: block;
+        width: 75%;
+        height: 30px;
+        padding-top: 1px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 40px;
+        border: solid 1px #34878a;
+    }
+
+    .logo_image {
+        width: 150px;
+        height: 50px;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+
+    .forgot_help {
+        font-size: 11px;
+        color: rgba(69, 171, 182, 0.959);
+    }
+
+    input {
+        display: block;
+        margin-top: 0px;
+        width: 90%;
+        height: 28px;
+        border-radius: 5px;
+        border: solid 1px rgba(0,0,0,0.2);
+    }
+
+    label {
+        margin-top: 0px;
+        font-size: 12px;
+        color: rgb(7, 7, 7);
+    }
+
+    button {
+        padding-top: 1px;
+        text-align: center;
+        margin-left: 10px;
+        border: solid 1px #34878a;
+        background-color: #305a65;
+        color: white;
+        border-radius: 15px;
+        font-size : 10px;
+        width : 50px;
+        height : 20px;
+    }
+
+    /* add contact*/
+    .form_layout_2 {
+        margin-top: 30px;
+    }
+    .navbar {
+        height : 60px;
+        width : 100%;
+        background-color : rgba(0,0,0,0.2);
+    }
+    .add_contact_form_section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .display_add_contact_form_section {
+        flex : 0.6;
+    }
+    .create_add_contact_form_section {
+        flex: 0.4;
+        margin-right : 60px;
+    }
+    #section_form {
+        margin-top: 30px;
+        width: 460px;
+        height: 400px;
+    }
+
+    .form-header {
+        font-size: 20px;
+        text-align: center;
+        background-color: #f2f2f2;
+        padding-top: 2px;
+        width: 480px;
+        /*margin-left: 380px;*/
+        margin-top: 50px;
+        /*margin-right: 380px;*/
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-bottom-color: rgb(77, 160, 163);
+        border-bottom-style: solid;
+        padding: 0px 95px;
+        height: 45px;
+        
+    }
+
+    #reg_container {
+        /*margin-left: 380px;*/
+        margin-top: 0px;
+        /*margin-right: 380px;*/
+        width: 480px;
+        border: solid 1px #34878a;
+        height: 350px;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+        
+    }
+
+    .form-header > p {
+        padding-top: 6px;
+        color: rgb(77, 160, 163);
+    }
+
+    .registration_input {
+        width: 80%;
+    }
+
+    select.site_label {
+        width: 21%;
+    }
+
+    .block_1_2 {
+        margin-left: 95px;
+    }
+
+    div.block_1_2 > div, div.block_2_2 > div {
+        margin-top: 7px;
+    }
+
+    div.block_1_2 label, div.block_2_2 label {
+        color: #177c80;
+    }
+
+    .button_add {
+        font-size: 10px;
+        width: 6%;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+        position: absolute;
+        background-color: rgb(45, 124, 160);
+        border-radius: 5px;
+    }
+
+    .button_edit {
+        font-size: 10px;
+        width: 6%;
+        height: 30px;
+        position: absolute;
+        background-color: rgb(45, 124, 160);
+        border-radius: 5px;
+    }
+
+    .button_cancel {
+        font-size: 10px;
+        width: 6%;
+        height: 30px;
+        margin-left : 20px;
+        position: absolute;
+        background-color: rgb(45, 124, 160);
+        border-radius: 5px;
+    }
+
+    .control_edit {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #viewbut {
+        float: right;
+        margin-top: 20px;
+        width: 6%;
+        margin-right: 40px;
+        height: 26px;
+        background-color: rgba(116, 134, 138, 0.959);
+        border-radius: 5px;
+        font-size: 10px;
+    }
+
+}
+
+    /*Edit Contact Page*/
+
+    .create_edit_contact_form_section {
+        margin-top : 100px;
+        margin-left : 450px;
+    }
+
+    /*Manage Contact*/
+
+    .create_link {
+        width : 100%;
+    }
+
+    .manage_view_section {
+        margin-left : 80px;
+        width : 80%;
+    }
+    .view_wrapper {
+        margin-top: 30px;
+        margin-left: 120px;
+    }
+
+    #contacts {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 85%;
+    }
+
+    #contacts td, #contacts th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    #contacts td {
+        font-size: 12px;
+    }
+
+        #contacts th {
+            font-size: 12px;
+            text-align: left;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: rgba(212, 183, 89, 0.945);
+        }
+
+        #contacts tr:nth-child(even){
+            background-color : #f4f4f4;
+        }
+
+    button#edit_button {
+        background-color: #397148;
+        color: white;
+        border-radius : 20px;
+    }
+
+    button#delete_button {
+        background-color: #763636;
+        color: white;
+        border-radius: 20px;
+    }
+
+   a #createbut {
+        margin-top : 10px;
+        margin-left : 915px;
+        margin-bottom : 15px;
+        font-size: 10px;
+        width: 8%;
+        height: 30px;
+        background-color: rgba(116, 134, 138, 0.959);
+        border-radius: 5px;
+    }
+
+   
+
+    
+

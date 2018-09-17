@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width:device-width" initial-scale="1.0">
+    <meta http-equiv="content-type">
+    <title>Manage Contact</title>
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="contactcare.js"></script>
+</head>
+<body id="page_wrapper">
+    <div class="create_link">
+        <div>
+            <a  href="contactreg.html"><button type="button" id="createbut">Create Contact</button></a>
+        </div>
+    </div>
+    
+    <div class="manage_view_section">
+        <div class="view_wrapper">
+            <table id="contacts">
+                <thead>
+                    <tr>
+                        <th>Completed</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                        <th>Occupation</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="show_contact"></tbody>
+            </table>
+        </div>
+    </div>
+    <div id="edit_field"></div>
+</body>
+</html>
