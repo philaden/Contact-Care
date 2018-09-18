@@ -25,7 +25,7 @@ const getData = () => {
             $.each(data, function (index, item) {
              
                 contacts = data;
-
+                console.log(item)
                 const checked = item.isComplete ? 'checked' : ""
                 
                 $(' <tr><td><input disabled="true" type="checkbox" ' + checked + ' ></td>' +

@@ -25,7 +25,7 @@ namespace ContactCare.Model
 
         [Required]
         public string Occupation { get; set; }
-
+    
         public bool IsComplete { get; set; }
     }
 }
